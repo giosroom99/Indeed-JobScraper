@@ -1,5 +1,5 @@
 # Indeed-JobScraper
-A very basic web scraper. 
+Job Scrapper/Spider
 
 This web scraper scrapes Indeed.com to find jobs based on three criteria, and returns a list of jobs posted in the last 24H. 
 The job search results are then saved as CSV files as Dataframe using Panda Library.

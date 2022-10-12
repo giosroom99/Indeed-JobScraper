@@ -1,7 +1,9 @@
 # Indeed-JobScraper
 A very basic web scraper. 
 
-This web scraper scrapes Indeed.com to find jobs based on three user job title inputs and returns a list of jobs posted in the last 24H. The job search results are then saved as CSV files.
+This web scraper scrapes Indeed.com to find jobs based on three criteria, and returns a list of jobs posted in the last 24H. 
+The job search results are then saved as CSV files as Dataframe using Panda Library.
+Then an email is sent to the end-user with the atatched CSV file.
 
     Tool and Technology used in this program
         Python Libraries: BeautifulSoup, requests, pandas, and STMP mail
